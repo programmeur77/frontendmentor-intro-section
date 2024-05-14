@@ -1,0 +1,17 @@
+@import "./fonts";
+
+$almost-white: hsl(0, 0%, 98%);
+$medium-gray: hsl(0, 0%, 41%);
+$almost-black: hsl(0, 0%, 8%);
+
+$font-size: 18px;
+
+// Font weight
+$font-weight-500px: 500px;
+$font-weight-700px: 700px;
+
+// Responsive break-points
+$break-point-mobile-minimum: 320px;
+$break-point-mobile-maximum: 550px;
+$break-point-desktop-minimum: 551px;
+$break-point-desktop-maximum: 1550px;
