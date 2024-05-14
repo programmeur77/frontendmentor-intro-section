@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/programmeur77/frontendmentor-intro-section/issues"
   },
-  "homepage": "https://github.com/programmeur77/frontendmentor-intro-section#readme"
+  "homepage": "https://github.com/programmeur77/frontendmentor-intro-section#readme",
+  "devDependencies": {
+    "sass": "^1.77.1"
+  }
 }
