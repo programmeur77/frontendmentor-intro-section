@@ -14,4 +14,6 @@ body {
   font-family: $font-family-epilogue;
   font-size: $font-size;
   background-color: $almost-white;
+
+  @import "./components/container";
 }
