@@ -4,3 +4,6 @@
 # NPM files and directories
 package-lock.json
 node_modules
+
+# SASS auto-generated map file
+src/style/css/style.css.map
