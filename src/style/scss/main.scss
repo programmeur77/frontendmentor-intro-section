@@ -1,0 +1,17 @@
+@import "./utils/variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+  font-family: $font-family-epilogue;
+  font-size: $font-size;
+  background-color: $almost-white;
+}
