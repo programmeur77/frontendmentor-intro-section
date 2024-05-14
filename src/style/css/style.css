@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&family=Inter:slnt,wght@-10..0,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+/*# sourceMappingURL=style.css.map */
