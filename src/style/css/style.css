@@ -16,6 +16,14 @@ body {
 }
 body .container {
   width: 90%;
+  height: 95%;
+}
+body .container .page__main-header {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  gap: 5rem;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
