@@ -20,6 +20,7 @@ body .container {
 }
 body .container .page__main-header {
   width: 100%;
+  margin-bottom: 50px;
   height: fit-content;
   display: flex;
   gap: 5rem;
@@ -34,9 +35,13 @@ body .container .page__main-header .navigation__list {
 }
 body .container .page__main-header .navigation__item {
   list-style-type: none;
+  padding: 10px;
 }
 body .container .page__main-header .navigation__item:hover > .sub-navbar {
-  transform: scaleY(1);
+  max-height: 100%;
+}
+body .container .page__main-header .navigation__item:hover > .navlink__dropdown-icon {
+  transform: rotate(180deg);
 }
 body .container .page__main-header .navigation__navlink {
   text-decoration: none;
@@ -47,9 +52,10 @@ body .container .page__main-header .navigation .sub-navbar {
   display: grid;
   gap: 0.5rem;
   font-size: 0.8rem;
-  transform: scaleY(0);
+  max-height: 0;
+  overflow: hidden;
   transform-origin: top;
-  transition: transform 0.3s ease-in;
+  transition: max-height 0.3s ease-in;
 }
 body .container .page__main-header .navigation .sub-navbar__item {
   list-style-type: none;
@@ -67,9 +73,33 @@ body .container .page__main-header .navigation .sub-navbar__item-icon {
 body .container .page__main-header .navlink__dropdown-icon {
   margin-left: 0.3rem;
   transform: rotate(0);
+  transition: transform 0.3s linear;
 }
 body .container .page__main-header .navlink__dropdown-icon:hover {
   cursor: pointer;
+}
+body .container .page__main-header .header__secondary-navigation {
+  height: fit-content;
+  font-size: 0.8rem;
+  position: absolute;
+  right: 0;
+}
+body .container .page__main-header .secondary-navigation__list {
+  display: flex;
+  gap: 1.8rem;
+}
+body .container .page__main-header .secondary-navigation__item {
+  list-style-type: none;
+  padding: 10px;
+}
+body .container .page__main-header .secondary-navigation__item--grey-border {
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 15px;
+  top: 0;
+}
+body .container .page__main-header .secondary-navigation__navlink {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
 }
 
 /*# sourceMappingURL=style.css.map */
