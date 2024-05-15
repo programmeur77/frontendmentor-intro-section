@@ -1,11 +1,13 @@
 .page {
   &__main-header {
     width: 100%;
+    margin-bottom: 50px;
     height: fit-content;
     display: flex;
     gap: 5rem;
     position: relative;
 
     @import "./navigation";
+    @import "./secondary-menu";
   }
 }
