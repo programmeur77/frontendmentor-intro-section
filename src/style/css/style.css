@@ -30,17 +30,46 @@ body .container .page__main-header .navigation {
 }
 body .container .page__main-header .navigation__list {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 body .container .page__main-header .navigation__item {
   list-style-type: none;
+}
+body .container .page__main-header .navigation__item:hover > .sub-navbar {
+  transform: scaleY(1);
 }
 body .container .page__main-header .navigation__navlink {
   text-decoration: none;
   color: hsl(0, 0%, 41%);
 }
+body .container .page__main-header .navigation .sub-navbar {
+  margin-top: 5px;
+  display: grid;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in;
+}
+body .container .page__main-header .navigation .sub-navbar__item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+body .container .page__main-header .navigation .sub-navbar__navlink {
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+}
+body .container .page__main-header .navigation .sub-navbar__item-icon {
+  padding: 5px;
+}
 body .container .page__main-header .navlink__dropdown-icon {
   margin-left: 0.3rem;
+  transform: rotate(0);
+}
+body .container .page__main-header .navlink__dropdown-icon:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
