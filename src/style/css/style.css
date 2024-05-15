@@ -25,5 +25,22 @@ body .container .page__main-header {
   gap: 5rem;
   position: relative;
 }
+body .container .page__main-header .navigation {
+  font-size: 0.8rem;
+}
+body .container .page__main-header .navigation__list {
+  display: flex;
+  gap: 1.5rem;
+}
+body .container .page__main-header .navigation__item {
+  list-style-type: none;
+}
+body .container .page__main-header .navigation__navlink {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+body .container .page__main-header .navlink__dropdown-icon {
+  margin-left: 0.3rem;
+}
 
 /*# sourceMappingURL=style.css.map */
