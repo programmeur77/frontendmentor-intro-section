@@ -3,19 +3,31 @@
 
   &__list {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   &__item {
     list-style-type: none;
+
+    &:hover {
+      & > .sub-navbar {
+        transform: scaleY(1);
+      }
+    }
   }
 
   &__navlink {
     text-decoration: none;
     color: $medium-gray;
   }
+
+  @import "./submenu";
 }
 
 .navlink__dropdown-icon {
   margin-left: 0.3rem;
+  transform: rotate(0);
+  &:hover {
+    cursor: pointer;
+  }
 }
