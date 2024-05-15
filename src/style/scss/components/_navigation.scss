@@ -1,0 +1,21 @@
+.navigation {
+  font-size: 0.8rem;
+
+  &__list {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  &__item {
+    list-style-type: none;
+  }
+
+  &__navlink {
+    text-decoration: none;
+    color: $medium-gray;
+  }
+}
+
+.navlink__dropdown-icon {
+  margin-left: 0.3rem;
+}
