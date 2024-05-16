@@ -101,13 +101,21 @@ body .container .page__main-header .secondary-navigation__navlink {
   text-decoration: none;
   color: hsl(0, 0%, 41%);
 }
-body .container .main-content-section {
-  max-width: 90%;
-  max-height: 80%;
+body .container .main-content-section-container {
+  width: 100%;
+  height: 90%;
+}
+body .container .main-content-section-container .main-content-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
-  gap: 2rem;
+}
+body .container .main-content-section-container .main-content-section .illustration-section {
+  width: 60%;
+}
+body .container .main-content-section-container .main-content-section .illustration-section__illustration-img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
