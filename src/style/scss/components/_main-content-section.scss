@@ -1,8 +1,7 @@
 & .main-content-section {
-  max-width: 90%;
-  max-height: 80%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
-  gap: 2rem;
+
+  @import "./illustration-section";
 }
